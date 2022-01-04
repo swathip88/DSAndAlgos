@@ -1,4 +1,5 @@
 class MyQueue {
+    //https://leetcode.com/problems/implement-queue-using-stacks/
     
     Stack<Integer> s1 = null;
     Stack<Integer> s2 = null;
