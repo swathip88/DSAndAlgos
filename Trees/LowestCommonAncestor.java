@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class LowestCommonAncestor {
     //https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/
     private TreeNode ans;
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
