@@ -14,7 +14,7 @@ class Node {
 }
 */
 
-class Solution {
+class CopyListWIthRandomPointers {
     public Node copyRandomList(Node head) {
         Node t = head;
         if(t == null){
