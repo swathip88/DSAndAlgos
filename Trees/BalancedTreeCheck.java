@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class BalancedTreeCheck {
     //https://leetcode.com/problems/balanced-binary-tree/submissions/
     public boolean isBalanced(TreeNode root) {
         
