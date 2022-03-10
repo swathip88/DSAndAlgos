@@ -22,9 +22,9 @@ class CountIslands {
         }
         
         grid[x][y] = '2';
-        countIslands(grid, noOfRows, noOfCols, x, y + 1);
-        countIslands(grid, noOfRows, noOfCols, x + 1, y);
-        countIslands(grid, noOfRows, noOfCols, x, y - 1);
-        countIslands(grid, noOfRows, noOfCols, x - 1, y);
+        outlineIsland(grid, noOfRows, noOfCols, x, y + 1);
+        outlineIsland(grid, noOfRows, noOfCols, x + 1, y);
+        outlineIsland(grid, noOfRows, noOfCols, x, y - 1);
+        outlineIsland(grid, noOfRows, noOfCols, x - 1, y);
     }
 }
